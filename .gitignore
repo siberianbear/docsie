@@ -8,3 +8,6 @@ jinja.md
 !src/jinja.md
 blog/index.html
 !src/blog/index.html
+bin
+lib
+pyvenv.cfg

@@ -1,0 +1,134 @@
+#main {
+	@apply w-full;
+}
+
+.twc-docsie-header {
+	min-height: 80vh;
+	background-image: url(../assets/Collaboration-software-that-simplifies-the-way-you-create-documentation.svg);
+	@apply flex justify-center items-center px-16 py-8 bg-no-repeat bg-cover bg-center;
+}
+
+.twc-docsie-header-content {
+	@apply flex flex-col items-center text-center max-w-xl;
+}
+
+.twc-docsie-title {
+	@apply text-4xl sm:text-5xl md:text-6xl md:text-7xl font-bold tracking-wider;
+}
+
+.twc-docsie-subtitle {
+	@apply sm:text-2xl md:text-3xl md:text-4xl;
+}
+
+.twc-docsie-section {
+	@apply flex items-center px-8 py-10;
+}
+
+.twc-docsie-section-container {
+	@apply max-w-7xl mx-auto;
+}
+
+.twc-docsie-section-title {
+	@apply max-w-xl sm:text-3xl md:text-4xl leading-10 text-center font-bold;
+}
+
+.twc-docsie-features-nav {
+	@apply sm:hidden md:hidden lg:block;
+}
+
+.twc-docsie-learnmore-bttn {
+	@apply sm:block md:block lg:hidden mt-4 text-2xl
+}
+
+.twc-docsie-section-checker {
+	@apply flex items-center px-8;
+}
+
+.twc-docsie-section-checker-container {
+	@apply grid sm:grid-cols-1 md:grid-cols-2 gap-4 max-w-7xl mx-auto;
+}
+
+.twc-docsie-checker-cell {
+	@apply p-8 flex items-center;
+}
+
+.twc-docsie-section-checker-title {
+	@apply text-4xl text-center py-8 col-span-full;
+}
+
+.twc-docsie-paragraph {
+	@apply text-2xl;
+}
+
+.twc-docsie-section-company {
+	@apply grid grid-cols-1 md:grid-cols-2 max-w-7xl mx-auto px-4 md:px-8;
+}
+
+.twc-docsie-section-company-title {
+	@apply text-center py-8 text-4xl font-bold tracking-wider col-span-full;
+}
+
+.twc-docsie-section-company-subtitle {
+	@apply py-8 text-3xl col-span-full;
+}
+
+.twc-docsie-section-company-text {
+	@apply text-4xl text-center py-8;
+}
+
+.twc-docsie-section-testimonial {
+	@apply grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-4 md:px-8 gap-7 max-w-7xl mx-auto pb-7;
+}
+
+.twc-docsie-card {
+	@apply flex flex-col h-full w-auto shadow-lg rounded-md overflow-hidden bg-white;
+}
+
+.twc-docsie-card img {
+	@apply w-full h-auto
+}
+
+.twc-docsie-card-comment {
+	@apply m-9 flex flex-grow text-xl mb-10;
+}
+
+.twc-docsie-card-link {
+	@apply text-xl m-8;
+} 
+
+.twc-docsie-card-link small {
+	@apply text-xl;
+} 
+
+.twc-docsie-card-link a {
+	@apply flex text-2xl items-center cursor-pointer hover:underline
+} 
+
+
+
+
+/* CUSTOM Styles part */
+
+.custom_card_width {
+	min-width: 260px;
+}
+
+.custom_bgcolor_accent2 {
+	background-color: #86fff9;
+}
+
+.custom_bgcolor_accent3 {
+	background-color: #cff;
+}
+
+.custom_bgcolor_accent4 {
+	background-color: #e9f0ff;
+}
+
+.custom_card_text_color_black {
+	color: #181818;
+}
+
+.custom_card_meta_color {
+	color: #656565;
+}

@@ -3,26 +3,28 @@
 {% block description %}{% trans %}Save time and retain customers, write, translate and manage better product documentation with Docsie{% endtrans %}{% endblock description %}
 {% block shareimage %}https://www.docsie.io/assets/share-image.jpeg{% endblock shareimage %}
 {% block styles %}
-<link rel="stylesheet" href='/index.css'>
+<!-- <link rel="stylesheet" href='/index.css'> -->
+<!-- custom TW, compiled -->
+<link rel="stylesheet" href='/tw-custom-compiled.css'>
 
 {% endblock styles %}
 {% block content %}
 <!-- Page Content -->
 <main id="main">
-  <div class="pure-docsie ready gn" style="max-width: 100%;">
-    <article class="docsie-doc">
-      <header class="docsie-header sd-header" id="section-page-header">
-        <div class="docsie-header-conatiner" role="presentation">
-          <h1 class="docsie-title">{% trans %}Craft amazing web user manuals{% endtrans %}</h1>
-          <p class="docsie-subtitle">{% trans %}Collaborate to create web-based faqs, user guides, help-docs, user manuals and knowledge portals.{% endtrans %}</p>
+  <div class="">
+    <article class="">
+      <header class="twc-docsie-header" id="section-page-header">
+        <div class="twc-docsie-header-content" role="presentation">
+          <h1 class="twc-docsie-title">Craft amazing web user manuals</h1>
+          <p class="twc-docsie-subtitle">Collaborate to create web-based faqs, user guides, help-docs, user manuals and knowledge portals.</p>
         </div>
       </header>
 
 
-      <div class="docsie-content">
-        <section class="docsie-section docsie-grid accent4">
-          <div class="docsie-section-container" role="presentation">
-            <h2 class="docsie-section-title " id="section-header-two-fuvns">{% trans %}Customer-centric collaboration, extensive embedding, tailored translations, and powerful publishing at your fingertips.{% endtrans %}</h2>
+      <div class="">
+        <section class="twc-docsie-section custom_bgcolor_accent4">
+          <div class="twc-docsie-section-container" role="presentation">
+            <h2 class="twc-docsie-section-title">{% trans %}Customer-centric collaboration, extensive embedding, tailored translations, and powerful publishing at your fingertips.{% endtrans %}</h2>
             <div class="cr-ft">
               <figure class="ft-f">
                 <img src="https://appcdn2.docsie.io/assets/Organize-Documentation.png" alt="Organize documentation" />
@@ -32,7 +34,8 @@
                 <img src="https://appcdn2.docsie.io/assets/Publish-to-Your-Website.png" alt="Publish to your website" />
                 <figcaption></figcaption>
               </figure>
-              <nav class="ft-n v-lg">
+              <!-- <nav class="ft-n v-lg"> -->
+              <nav class="twc-docsie-features-nav">
                 <ul>
                   <li><button data-icon="checkmark">
                       {% trans %}Organize documentation{% endtrans %}
@@ -55,36 +58,36 @@
                 </ul>
               </nav>
             </div>
-            <p class="docsie-paragraph h-lg" id="unstyled-5g0j0"><a href="http://docsie.io">{% trans %}Learn More{% endtrans %} <svg class="inl"
+            <p class="twc-docsie-learnmore-bttn"><a href="http://docsie.io">{% trans %}Learn More{% endtrans %} <svg class="inl"
                   width="22" height="22" viewBox="0 0 20 20">
                   <use xlink:href="#icon-arrow-right" /></svg></a></p>
           </div>
         </section>
-        <section class="docsie-section docsie-checker">
-          <div class="docsie-section-container" role="presentation">
+        <section class="twc-docsie-section-checker">
+          <div class="twc-docsie-section-checker-container" role="presentation">
             <!-- <h2 class="docsie-section-title ">Tiled section</h2> -->
-            <h2 class="docsie-section-title ">{% trans %}Unified docs bring companies together{% endtrans %}</h2>
-            <div class="docsie-checker-cell">
-              <p class="docsie-paragraph" id="unstyled-aphro">{% trans %}Businesses save time with Docsie by simplifying their
+            <h2 class="twc-docsie-section-checker-title">{% trans %}Unified docs bring companies together{% endtrans %}</h2>
+            <div class="twc-docsie-checker-cell">
+              <p class="twc-docsie-paragraph">{% trans %}Businesses save time with Docsie by simplifying their
                 product documentation workflow and reducing reliance on multiple documentation tools.{% endtrans %}</p>
               <!--<a href="http://docsie.io">Learn More <svg class="inl" width="22" height="22" viewBox="0 0 20 20">-->
               <!--<use xlink:href="#icon-arrow-right" /></svg></a>-->
             </div>
-            <div class="docsie-checker-cell">
+            <div class="twc-docsie-checker-cell">
               <img src="https://appcdn2.docsie.io/assets/Docsie_Api_Sales_Userguide.png" alt="Images of three customized documnetation hubs for User Guides, API Documentation and Product Documentation"/>
             </div>
           </div>
         </section>
 
-        <section class="docsie-section docsie-checker">
-          <div class="docsie-section-container" role="presentation">
+        <section class="twc-docsie-section-checker">
+          <div class="twc-docsie-section-checker-container" role="presentation">
             <!-- <h2 class="docsie-section-title ">Tiled section</h2> -->
-            <h2 class="docsie-section-title ">{% trans %}Customized Documentation Hubs{% endtrans %}</h2>
-            <div class="docsie-checker-cell">
+            <h2 class="twc-docsie-section-checker-title">{% trans %}Customized Documentation Hubs{% endtrans %}</h2>
+            <div class="twc-docsie-checker-cell">
               <img src="https://appcdn2.docsie.io/assets/Docsie_Product_Documentation.png" alt="Image of two customer documentation hubs made in Docsie" />
             </div>
-            <div class="docsie-checker-cell">
-              <p class="docsie-paragraph" id="unstyled-aphro">{% trans %}Use Docsie Manager to easily create and publish custom
+            <div class="twc-docsie-checker-cell">
+              <p class="twc-docsie-paragraph">{% trans %}Use Docsie Manager to easily create and publish custom
                 product documentation
                 hubs that mirror your brands look and feel.{% endtrans %}</p>
 <!--              <a href="http://docsie.io">Learn More <svg class="inl" width="22" height="22" viewBox="0 0 20 20">-->
@@ -95,60 +98,65 @@
         </section>
 
 
-        <section class="docsie-section docsie-grid grid-2 accent3">
+        <section class="twc-docsie-section custom_bgcolor_accent3">
 
-          <div class="docsie-section-container" role="presentation">
-            <h2 class="docsie-section-title">{% trans %}You are in good company{% endtrans %}</h2>
-            <div class="docsie-section-title">{% trans %}Teams of all sizes trust Docsie to quickly create and manage their
+          <div class="twc-docsie-section-company" role="presentation">
+            <h2 class="twc-docsie-section-company-title">{% trans %}You are in good company{% endtrans %}</h2>
+            <div class="twc-docsie-section-company-subtitle">{% trans %}Teams of all sizes trust Docsie to quickly create and manage their
               internal and external product
               documentation.{% endtrans %}</div>
-            <div class="docsie-grid-cell">
-              <h2>{% trans %}Trusted by over 5000 business and technology users.{% endtrans %} 😎</h2>
+            <div class="custom_card_width">
+              <h2 class="twc-docsie-section-company-text">{% trans %}Trusted by over 5000 business and technology users.{% endtrans %} 😎</h2>
             </div>
-            <div class="docsie-grid-cell">
-              <h2>{% trans %}1000+ business documentation portals published.{% endtrans %} 📝</h2>
+            <div class="custom_card_width">
+              <h2 class="twc-docsie-section-company-text">{% trans %}1000+ business documentation portals published.{% endtrans %} 📝</h2>
             </div>
           </div>
         </section>
-        <section class="docsie-section docsie-grid grid-3 accent3">
-          <div class="docsie-section-container" role="presentation">
-            <p class="docsie-section-title">{% trans %}Here is what people are saying:{% endtrans %}</p>
-            <div class="docsie-grid-cell">
-              <div class="docsie-card">
-                <p class="comment">
+
+
+        <section class="twc-docsie-section custom_bgcolor_accent3">
+          <div class="twc-docsie-section-testimonial" role="presentation">
+            <p class="twc-docsie-section-company-subtitle">{% trans %}Here is what people are saying:{% endtrans %}</p>
+
+            <div class="custom_card_width">
+              <div class="twc-docsie-card custom_card_text_color_black">
+                <p class="twc-docsie-card-comment">
                 {% trans %}Docsie is very intuitive for the whole team to grasp quickly. My team uses it as the primary documentation management platform now.{% endtrans %}
                 </p>
                 <img src="https://appcdn2.docsie.io/assets/Testimonial1.svg.png"  alt="Docsie is very intuitive for the whole team to grasp quickly. My team uses it as the primary documentation management platform now." />
-                <p>
-                  <small class="meta">capterra.com</small><br />
+                <p class="twc-docsie-card-link custom_card_text_size80">
+                  <small class="custom_card_meta_color">capterra.com</small><br />
                   <a href="https://www.capterra.com/p/185219/Docsie/reviews/1756087/">{% trans %}Learn More{% endtrans %} <svg class="inl"
                       width="22" height="22" viewBox="0 0 20 20">
                       <use xlink:href="#icon-arrow-right" /></svg></a>
                 </p>
               </div>
             </div>
-            <div class="docsie-grid-cell">
-              <div class="docsie-card">
-                <p class="comment">
+
+            <div class="custom_card_width">
+              <div class="twc-docsie-card custom_card_text_color_black">
+                <p class="twc-docsie-card-comment">
                 {% trans %}Their platform is straightforward to use, and they have fantastic customer service whenever I need help!{% endtrans %}
                 </p>
                 <img src="https://appcdn2.docsie.io/assets/Testimonial2.svg.png"  alt="Testimonial by user Their platform is straightforward to use, and they have fantastic customer service whenever I need help!" />
-                <p>
-                  <small class="meta">capterra.com</small><br />
+                <p class="twc-docsie-card-link custom_card_text_size80">
+                  <small class="custom_card_meta_color">capterra.com</small><br />
                   <a href="https://www.capterra.com/p/185219/Docsie/reviews/1729930/">{% trans %}Learn More{% endtrans %} <svg class="inl"
                       width="22" height="22" viewBox="0 0 20 20">
                       <use xlink:href="#icon-arrow-right" /></svg></a>
                 </p>
               </div>
             </div>
-            <div class="docsie-grid-cell">
-              <div class="docsie-card">
-                <p class="comment">
+            
+            <div class="custom_card_width">
+              <div class="twc-docsie-card custom_card_text_color_black">
+                <p class="twc-docsie-card-comment">
                   {% trans %}Docsie helped me reduce repetitive work required to create and maintain multiple versioned docs.{% endtrans %}
                 </p>
                 <img src="https://appcdn2.docsie.io/assets/Testimonial3.svg.png" alt="Testimonial by user Docsie helped me reduce repetitive work required to create and maintain multiple versioned docs." />
-                <p>
-                  <small class="meta">capterra.com</small><br />
+                <p class="twc-docsie-card-link custom_card_text_size80">
+                  <small class="custom_card_meta_color">capterra.com</small><br />
                   <a href="https://www.capterra.com/p/185219/Docsie/reviews/1757230/">{% trans %}Learn More{% endtrans %} <svg class="inl"
                       width="22" height="22" viewBox="0 0 20 20">
                       <use xlink:href="#icon-arrow-right" /></svg></a>
@@ -157,18 +165,19 @@
             </div>
           </div>
         </section>
-        <section class="docsie-section docsie-grid grid-3">
-          <div class="docsie-section-container" role="presentation">
-            <h2 class="docsie-section-title ">{% trans %}Improve the quality of your product documentation{% endtrans %}</h2>
+        <section class="twc-docsie-section">
+          <div class="twc-docsie-section-container" role="presentation">
+            <h2 class="twc-docsie-section-title">{% trans %}Improve the quality of your product documentation{% endtrans %}</h2>
 
             {% include '_blog.html' %}
+
           </div>
         </section>
-        <section class="docsie-section accent2">
-          <div class="docsie-section-container" role="presentation">
-            <h2 class="docsie-section-title " id="section-header-two-cfalg">{% trans %}Let's write better documentation together{% endtrans %}
+        <section class="twc-docsie-section custom_bgcolor_accent2">
+          <div class="twc-docsie-section-container" role="presentation">
+            <h2 class="twc-docsie-section-title">{% trans %}Let's write better documentation together{% endtrans %}
             </h2>
-            <p class="docsie-paragraph" id="unstyled-b2r7t"></p>
+            <!-- <p class="twc-docsie-paragraph"></p> -->
           </div>
         </section>
       </div>
